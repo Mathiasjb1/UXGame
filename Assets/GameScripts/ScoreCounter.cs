@@ -18,6 +18,13 @@ public class ScoreCounter : MonoBehaviour
     public GameObject YouText;
     public GameObject UwUPic;
     public GameObject youWin;
+
+    [SerializeField] private Animator targets1Controller;
+    [SerializeField] private Animator targets2Controller;
+    [SerializeField] private Animator targets3Controller;
+
+    [SerializeField] private GameObject fireWorks;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -32,7 +39,7 @@ public class ScoreCounter : MonoBehaviour
 
     public void UpdateScore()
     {
-        ScoreText.text = "Score " + score + "/ 9";
+        ScoreText.text = "Score " + score + " / 9";
     }
 
     // Update is called once per frame
@@ -65,5 +72,11 @@ public class ScoreCounter : MonoBehaviour
         YouText.SetActive(true);
         
         youWin.SetActive(true);
+
+        targets1Controller.SetBool("GameIsON?", false);
+        targets2Controller.SetBool("GameIsON?", false);
+        targets3Controller.SetBool("GameIsON?", false);
+
+        fireWorks.SetActive(true);
     }
 }
