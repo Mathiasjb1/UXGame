@@ -7692,8 +7692,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 296854249}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.593, y: 0.5381, z: 17.5721}
-  m_LocalScale: {x: 3, y: 0.0839, z: 0.7802}
+  m_LocalPosition: {x: 5.593, y: 0.7881, z: 17.3245}
+  m_LocalScale: {x: 3, y: 0.0839, z: 0.7753613}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -43788,7 +43788,7 @@ PrefabInstance:
     - target: {fileID: 5117709272763234211, guid: 2af1d2045149fe743b81bc4d1a6f8406,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6
+      value: 5.67
       objectReference: {fileID: 0}
     - target: {fileID: 5117709272763234211, guid: 2af1d2045149fe743b81bc4d1a6f8406,
         type: 3}
@@ -94762,6 +94762,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7124654741737172333, guid: 76238a1f982925a4286a601d710d478c,
+        type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76238a1f982925a4286a601d710d478c, type: 3}
 --- !u!23 &7134651844770246370
@@ -98443,6 +98448,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 669479450}
+    - target: {fileID: 2675390244763366340, guid: c9309e4c3e5ed7e4cb1d44b52c357589,
+        type: 3}
+      propertyPath: m_Text
+      value: Archery Master
+      objectReference: {fileID: 0}
     - target: {fileID: 5328775765308869153, guid: c9309e4c3e5ed7e4cb1d44b52c357589,
         type: 3}
       propertyPath: m_Name
@@ -98552,6 +98562,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5328775765451365142, guid: c9309e4c3e5ed7e4cb1d44b52c357589,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 215
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c9309e4c3e5ed7e4cb1d44b52c357589, type: 3}
@@ -99410,7 +99425,7 @@ PrefabInstance:
     - target: {fileID: 2735452856436798955, guid: 07f51fb2f3daf434998ff002bec41abc,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.2039032
+      value: 1.4539032
       objectReference: {fileID: 0}
     - target: {fileID: 2735452856436798955, guid: 07f51fb2f3daf434998ff002bec41abc,
         type: 3}
@@ -100002,8 +100017,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.029268174, y: 0.008048373, z: 0.0058445414}
-  m_Center: {x: 0.00026704132, y: 0.0060272575, z: 0.003071587}
+  m_Size: {x: 0.029268174, y: 0.0068364404, z: 0.008267478}
+  m_Center: {x: 0.0002670407, y: 0.00542129, z: 0.0042830706}
 --- !u!1 &8472584233240514221
 GameObject:
   m_ObjectHideFlags: 0
